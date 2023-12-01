@@ -3,7 +3,8 @@
 /*
 INTENTO DE LIMPIADOR DE BUFFER
 Con gcc no funciona fflush(stdin)
-Podemos usar esto en su lugar
+Podemos usar esto en su lugar para
+liberar el buffer de entrada
 
 fflush(stdout) si funciona para liberar
 el buffer de salida
