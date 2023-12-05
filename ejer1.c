@@ -11,6 +11,7 @@ void main(){
             hijo = fork();
             if(hijo != 0) {break;}
             printf("Soy proceso %d",i);
+            printf("Mi",);
             fflush(stdout); // Limpia el buffer de salida (*1)
         }
         printf("\n");
@@ -42,5 +43,5 @@ it printed twice.
 Adding the \n though forces the buffer to be flushed and outputted to the screen. 
 This happens before the fork and hence is only printed once.
 You can force this to occur by using the fflush method
-
+prueba
 */
