@@ -45,5 +45,6 @@ This happens before the fork and hence is only printed once.
 You can force this to occur by using the fflush method
 casa
 prueba2
+esto lo ha hecho dani
 esto lo ha hecho alberto
 */
