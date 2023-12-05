@@ -44,4 +44,5 @@ Adding the \n though forces the buffer to be flushed and outputted to the screen
 This happens before the fork and hence is only printed once.
 You can force this to occur by using the fflush method
 casa
+prueba2
 */
